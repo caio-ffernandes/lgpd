@@ -44,7 +44,11 @@ nav ul{
 nav ul li{
     font-size: 20px;
 }
-
+nav ul li:hover{
+    transform: scale(1.2);
+    background-color:#3c3f29;
+    color: #fa5757;
+}
 section{
     height: 500px;
     width: 90%;
@@ -53,8 +57,16 @@ section{
     border: #222417 2px solid;
     margin: 50px auto;
     border-radius: 8px;
+    box-shadow: -1px 10px 60px 10px
 }
 section p{
     margin: 10px auto;
     font-size: 20px;
 }
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+    background-color: #3E608C;
+    border-radius: 5px;}
