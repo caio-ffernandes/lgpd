@@ -9,6 +9,9 @@
 }
 body{
     background-color:#222417;
+    background-image: url(../images/bg02.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     display: flex;
@@ -70,3 +73,31 @@ footer{
     align-items: center;
     background-color: #3E608C;
     border-radius: 5px;}
+    section#one{
+        background-image: url(../images/cat-g8f9f97284_640.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    section#two{
+        background-image: url(../images/deer-g6d5191fde_640.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    section#three{
+        background-image: url(../images/dolphin-gaa1449cbd_640.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    section#four{
+        background-image: url(../images/ostrich-gc674569e7_640.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
