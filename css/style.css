@@ -60,7 +60,8 @@ section{
     border: #222417 2px solid;
     margin: 50px auto;
     border-radius: 8px;
-    box-shadow: -1px 10px 60px 10px
+    box-shadow: -1px 10px 60px 10px;
+    animation: colorido 6s infinite;
 }
 section p{
     margin: 10px auto;
@@ -100,4 +101,19 @@ footer{
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
+    }
+    @keyframes colorido{
+        25%{
+            border:solid 5px rgb(4, 206, 4);
+        }
+        50%{
+            border:solid 5px rgba(48, 0, 238, 0.844);
+        }
+        75%{
+            border:solid 5px rgb(222, 0, 0);
+        }
+        100%{
+            border:solid 5px yellow;
+        }
+
     }
