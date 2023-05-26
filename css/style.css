@@ -103,21 +103,26 @@ footer{
     }
     @keyframes colorido{
         25%{
-            border:solid 5px rgb(4, 206, 4);
+            box-shadow: -1px 10px 60px 10px #00df07;
+            border:solid 5px rgb(0, 255, 0);
         }
         50%{
+            box-shadow: -1px 10px 60px 10px #0f0ce2;
             border:solid 5px rgba(48, 0, 238, 0.844);
         }
         75%{
+            box-shadow: -1px 10px 60px 10px #f80505;
             border:solid 5px rgb(222, 0, 0);
         }
         100%{
+            box-shadow: -1px 10px 60px 10px;
             border:solid 5px yellow;
         }
 
     }
     @keyframes coloridinho{
         25%{
+            
             color: rgb(4, 206, 4);
         }
         50%{
